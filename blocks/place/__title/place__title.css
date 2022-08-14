@@ -1,0 +1,15 @@
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin-bottom: 0;
+  padding: 0;
+  align-self: end;
+  margin-top: 32px;
+  text-rendering: optimizeLegibility;
+}
+
+.place__title:first-of-type {
+  margin-top: 0px;
+}
