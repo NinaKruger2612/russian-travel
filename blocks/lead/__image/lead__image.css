@@ -4,3 +4,9 @@
   border: 0;
   object-fit: cover;
 }
+
+@media all and (max-width: 1280px) {
+  .lead__image {
+    max-width: 100%;
+  }
+}

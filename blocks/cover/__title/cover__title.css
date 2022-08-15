@@ -1,4 +1,4 @@
-.cover__title{
+.cover__title {
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -8,4 +8,11 @@
   padding: 0;
   color: #fff;
   text-rendering: optimizeLegibility;
+}
+
+@media all and (max-width: 500px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

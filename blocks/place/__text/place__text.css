@@ -2,11 +2,25 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.67;
-  margin: 0px;
-  padding: 0 0 24px 0;
+  line-height: 163%;
+  margin: 0px auto;
+  padding: 0 0 55px 0;
 }
 
 .place__text:last-child {
-  padding-bottom: 0 auto;
+  padding-bottom: 0;
+}
+
+@media all and (max-width: 768px) {
+  .place__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 1.63;
+  }
 }

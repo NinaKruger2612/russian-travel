@@ -1,5 +1,5 @@
 .cover__background {
-  background-image: url("../../../images/cover-trains.jpg");
+  background-image: url('../../../images/cover-trains.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -26,4 +26,22 @@
 
 .cover__background:hover::before {
   opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 769px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
 }

@@ -1,6 +1,12 @@
 .place__website {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
   align-self: end;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .place__website {
+    padding: 0 16px;
+  }
 }
