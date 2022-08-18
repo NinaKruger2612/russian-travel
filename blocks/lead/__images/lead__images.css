@@ -1,11 +1,4 @@
-.lead__images {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-@media all and (max-width: 1280px) {
-  .lead__images {
-    max-width: 100%;
-  }
+.lead__images{
+    margin: 0;
+    padding: 0;
 }

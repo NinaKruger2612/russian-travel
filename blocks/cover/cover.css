@@ -1,23 +1,27 @@
 .cover {
-  padding: 92px 148px;
   position: relative;
+  padding-bottom: 48px;
+  margin: 0 auto;
+  width: calc(100% - 2 * 48px);
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 320px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-bottom: 92px;
+    width: 100%;
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
   .cover {
-    padding: 88px 0 0;
+    padding-bottom: 88px;
   }
 }
 
-@media all and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .cover {
-    padding: 66px 0 0;
+    padding-bottom: 64px;
   }
 }
