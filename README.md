@@ -1,5 +1,5 @@
 # russian-travel
-[ссылка на проект]https://github.com/NinaKruger2612/russian-travel
+## [ссылка на проект] (https://github.com/NinaKruger2612/russian-travel)
 
 Проект с практическими заданиями для закрепления навыков и знаний по расширенным возможностям html и css, таких как:
 
