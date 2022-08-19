@@ -15,11 +15,21 @@
   position: relative;
 }
 
-.cover__background:hover {
-  opacity: 0.6;
-  background-color: #2A2C2F;
+.cover__background::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
 }
 
+.cover__background:hover::before {
+  opacity: 0.8;
+}
 @media screen and (max-width: 1024px) {
   .cover__background {
     min-height: 640px;
